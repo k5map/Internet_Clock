@@ -42,7 +42,7 @@ int CurrentTemp = 0;
 
 //***  Weather Underground parms
 const char server[] = "api.wunderground.com";    // name address for Weather Underground (using DNS)
-const String myKey = "03948070514b8e9c";  //See: http://www.wunderground.com/weather/api/d/docs (change here with your KEY)
+const String myKey = "xxxxxxxxxxxxxxxx";  //See: http://www.wunderground.com/weather/api/d/docs (change here with your KEY)
 const String myFeatures = "conditions";   //See: http://www.wunderground.com/weather/api/d/docs?d=data/index&MR=1
 const String myZipcode = "77379";
 

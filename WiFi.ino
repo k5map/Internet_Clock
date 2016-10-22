@@ -6,11 +6,11 @@
 const char* ssid     = "Pat3net";
 const char* password = "";
 const char* SSID_HOME = "Pat3net";
-const char* SSID_HOME_PSWD = "";
+const char* SSID_HOME_PSWD = "xxxxx";
 const char* SSID_WORK = "HCP";
-const char* SSID_WORK_PSWD = "H1CrushProp";
+const char* SSID_WORK_PSWD = "xxxxxx";
 const char* SSID_MIFI = "MPate-Hotspot";
-const char* SSID_MIFI_PSWD = "7139079845";
+const char* SSID_MIFI_PSWD = "xxxxx";
 
 
 /**************************************************/
