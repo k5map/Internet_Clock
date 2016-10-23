@@ -4,11 +4,11 @@
 
 // ***** Configure WiFi
 const char* ssid     = "Pat3net";
-const char* password = "";
+const char* password = "xxxxx";
 const char* SSID_HOME = "Pat3net";
 const char* SSID_HOME_PSWD = "xxxxx";
 const char* SSID_WORK = "HCP";
-const char* SSID_WORK_PSWD = "xxxxxx";
+const char* SSID_WORK_PSWD = "xxxxx";
 const char* SSID_MIFI = "MPate-Hotspot";
 const char* SSID_MIFI_PSWD = "xxxxx";
 

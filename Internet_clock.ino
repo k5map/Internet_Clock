@@ -46,7 +46,7 @@ const String myKey = "xxxxxxxxxxxxxxxx";  //See: http://www.wunderground.com/wea
 const String myFeatures = "conditions";   //See: http://www.wunderground.com/weather/api/d/docs?d=data/index&MR=1
 const String myZipcode = "77379";
 
-const int WU_INTERVAL = 1800;        // number of secs to refresh weather data
+const int WU_INTERVAL = 900;        // number of secs to refresh weather data
 String html_cmd1 = "GET /api/" + myKey + "/" + myFeatures + "/q/" + myZipcode + ".json HTTP/1.1";
 String html_cmd2 = "Host: " + (String)server;
 String html_cmd3 = "Connection: close";
@@ -177,7 +177,7 @@ void digitalClockDisplay()  {
   
   display.setTextSize(1);           //set text size to 1
   display.setCursor(20,55);         //set text start position to column=0 and row=20
-  display.print("Outside Temp: " + String(CurrentTemp) + "F");   //prints temp to OLED
+  display.print("Outside Temp: " + String(CurrentTemp) + (char)247);   //prints temp to OLED
 
   display.display();                //update OLED display
 }
